@@ -1,0 +1,186 @@
+
+body{
+    background-color: #8EC3B0;
+}
+.main{
+    /* this is the main div tag css file */
+    width: 100%;
+    height:400px;
+    background-color: #DEF5E5;
+    box-sizing: border-box;
+    margin-top: 0px;
+
+}
+.intr{
+     /* these are navigation dic css file */
+    box-sizing: border-box;
+    float: left;
+    width: 15%;
+    height: 30px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    padding: 6px 0px 3px 0px;
+   
+
+}
+.anchor{
+    /* these are the anchor in between navigatio's css file */
+    color: rgb(29, 30, 29);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+a.anchor:hover{
+    font-size: larger;
+    transition: 0.3s;
+    /* border-radius: 15%; */
+    opacity: 0.4;
+   
+}
+hr{
+    /* this is horizontal line css file */
+    height: 35px;
+    width: 100%;
+    border: none;
+
+}
+#hi{
+    /* this the rounded div css file */
+    background-color: #8EC3B0;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+}
+#img{
+    /* this is the img inside rounded div css file */
+    height:80%;
+    width: 60%;
+    margin: 20px 20px 0px 45px ;
+
+}
+.container{
+    /* this the animation text's outsider div */
+    margin-left: 500px;
+    margin-right: 500px;
+
+}
+#hey{
+    /* this is the aniamated text's existed div css file */
+
+    background-color: #8EC3B0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+    overflow: hidden;
+    border-right: .15em solid aliceblue;
+    font-size: 1.6rem;
+    width: 0;
+
+    white-space: nowrap;
+    animation: typing 3s forwards;
+    font: size 30%;
+
+}
+@keyframes typing{
+    /* this all about the text aniamation from left to right */
+    from{width:0}
+    to{width: 100%;}
+}
+.cont{
+    /* this is the div out side the maion div tag */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 500px;
+    background-color:#DEF5E5;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    overflow: auto;
+}
+.head2{
+    /* About Me tag heading */
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.passage{
+    /* this the about me passage css files */
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+}
+
+
+
+
+
+
+/* here we started the css file contact page ,   here we go ..... */
+
+/* the body is set as per the main page according the css file */
+/* then the main div is also repeated as per the previous one */
+/* head2 class is used to decorising the heading 2 as per previous one */
+
+.details{
+     /* these are the circular div inside the main div tag */
+    background-color: #8EC3B0;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px 10px 5px 20px;
+    
+
+
+}
+.details:hover{
+    box-shadow: 0px 1px 10px rgb(63, 60, 60);
+    transition: 0.3s;
+
+}
+.pic{
+    width: 100%;
+    height: 100%;
+}
+#dtls_p{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+
+}
+#home{
+    color: rgb(29, 30, 29);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    border: 1px solid black;
+    
+    
+}
+#home:hover{
+    font-size: large;
+    transition: 0.3s;
+    /* border-radius: 15%; */
+    opacity: 0.4;
+    border: 1px solid black;
+}
+#cdiv{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
