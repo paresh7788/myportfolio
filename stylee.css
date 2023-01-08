@@ -1,0 +1,134 @@
+
+body{
+    background:linear-gradient(to right,#8EC3B0,#29be87) ;
+}
+.main{
+    /* this is the main div tag css file */
+    width: 100%;
+    height:500px;
+    background-color: #DEF5E5;
+    box-sizing: border-box;
+    margin-top: 0px;
+    border-radius: 10px;
+
+}
+.intr{
+     /* these are navigation dic css file */
+    box-sizing: border-box;
+    float: left;
+    width: 15%;
+    height: 30px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    padding: 6px 0px 3px 0px;
+   
+
+}
+.anchor{
+    /* these are the anchor in between navigatio's css file */
+    color: rgb(29, 30, 29);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+a.anchor:hover{
+    font-size: larger;
+    transition: 0.3s;
+    /* border-radius: 15%; */
+    opacity: 0.4;
+   
+}
+hr{
+    /* this is horizontal line css file */
+    height: 35px;
+    width: 100%;
+    border: none;
+
+}
+#hi{
+    /* this the rounded div css file */
+    /* background-color: #8EC3B0; */
+    background:linear-gradient(to right,#8EC3B0,#29be87) ;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+}
+#img{
+    /* this is the img inside rounded div css file */
+    height:80%;
+    width: 60%;
+    margin: 20px 20px 0px 45px ;
+
+}
+
+.typing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: #8EC3B0; */
+    background:linear-gradient(to right,#29be87,#8EC3B0) ;
+    width: 35%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+#typed{
+    color: rgb(29, 30, 29);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.cont{
+    /* this is the div out side the maion div tag */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+    width: 70%;
+    height: 500px;
+    background-color:#DEF5E5;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    overflow: auto;
+    border-radius: 10px;
+}
+.head2{
+    /* About Me tag heading */
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.passage{
+    /* this the about me passage css files */
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+}
+.cont span#h3{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 1px 1px 3px rgb(63, 60, 60); 
+    border-radius: 10px;
+}
+
+
+

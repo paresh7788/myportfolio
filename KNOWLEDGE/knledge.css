@@ -1,0 +1,369 @@
+body{
+    background:linear-gradient(to right,#8EC3B0,#29be87) ;
+}
+
+
+
+
+.head{
+    background: #DEF5E5;
+    width: 100%;
+    height: 110px;
+    padding-top: 15px;
+    
+}
+.head h3,p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+.container{
+    background: #DEF5E5;
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+
+
+}
+.skills h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    color:black;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.progress-bar{
+    /* background: #959595; */
+    background:linear-gradient(to right,#8EC3B0,#29be87) ;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    /* width: 50%; */
+    width: 0%;
+    /* background: red; */
+}
+.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #DEF5E5;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.html{
+    background: #1ce2e9;
+    animation: html 3s linear forwards;
+}
+.CSS{
+    background: #1ce2e9;
+    animation: CSS 3s linear forwards;
+}
+.JAVASCRIPT{
+    background: #1ce2e9;
+    animation: JAVASCRIPT 3s linear forwards;
+}
+.PYTHON{
+    background: #1ce2e9;
+    animation: PYTHON 3s linear forwards;
+}
+.UI-UX{
+    background: #1ce2e9;
+    animation: UI-UX 3s linear forwards;
+}
+
+.html span{
+    border: 2px solid #1ce2e9 ;
+}
+.CSS span{
+    border: 2px solid #1ce2e9 ;
+}
+.JAVASCRIPT span{
+    border: 2px solid #1ce2e9 ;
+}
+.PYTHON span{
+    border: 2px solid #1ce2e9 ;
+}
+.UI-UX span{
+    border: 2px solid #1ce2e9 ;
+}
+
+
+
+@keyframes html {
+    100%{
+        width: 86%;
+    }
+    
+}
+@keyframes CSS  {
+    100%{
+        width: 74%;
+    }
+    
+}
+@keyframes JAVASCRIPT {
+    100%{
+        width: 65%;
+    }
+    
+}
+@keyframes PYTHON {
+    100%{
+        width: 54%;
+    }
+    
+}
+@keyframes UI-UX {
+    100%{
+        width: 60%;
+    }
+    
+}
+
+
+
+
+.FOOT{
+    background: #DEF5E5;
+    width: 100%;
+    height: 110px;
+    padding-top: 15px;
+
+}
+.CSS p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* from here newly added content will appear */
+/* for c */
+.C{
+    background: #1ce2e9;
+    animation: C 3s linear forwards;
+}
+
+.C span{
+    border: 2px solid #1ce2e9 ;
+}
+@keyframes C {
+    100%{
+        width: 70%;
+    }
+    
+}
+
+/* for COMPUTER-ORGANIZATION */
+.COMPUTER-ORGANIZATION{
+    background: #1ce2e9;
+    animation: COMPUTER-ORGANIZATION 3s linear forwards;
+}
+
+.COMPUTER-ORGANIZATION span{
+    border: 2px solid #1ce2e9 ;
+}
+@keyframes COMPUTER-ORGANIZATION{
+    100%{
+        width: 55%;
+    }
+    
+}
+
+/* for DISCRETE-MATHEMATICS */
+.DISCRETE-MATHEMATICS{
+    background: #1ce2e9;
+    animation: DISCRETE-MATHEMATICS 3s linear forwards;
+}
+
+.DISCRETE-MATHEMATICS span{
+    border: 2px solid #1ce2e9 ;
+}
+@keyframes DISCRETE-MATHEMATICS{
+    100%{
+        width: 43%;
+    }
+    
+}
+
+/* for OPERATING-SYSTEM */
+.OPERATING-SYSTEM{
+    background: #1ce2e9;
+    animation: OPERATING-SYSTEM 3s linear forwards;
+}
+
+.OPERATING-SYSTEM span{
+    border: 2px solid #1ce2e9 ;
+}
+@keyframes OPERATING-SYSTEM{
+    100%{
+        width: 65%;
+    }
+    
+}
+
+/* for COMPUTER-NETWORK */
+.COMPUTER-NETWORK{
+    background: #1ce2e9;
+    animation: COMPUTER-NETWORK 3S linear forwards;
+}
+
+.COMPUTER-NETWORK span{
+    border: 2px solid #1ce2e9 ;
+}
+@keyframes COMPUTER-NETWORK{
+    100%{
+        width: 68%;
+    }
+    
+}
+
+/* for ALGORITHIMS */
+.ALGORITHIMS{
+    background: #1ce2e9;
+    animation: ALGORITHIMS 3S linear forwards;
+}
+
+.ALGORITHIMS span{
+    border: 2px solid #1ce2e9 ;
+}
+@keyframes ALGORITHIMS{
+    100%{
+        width: 66%;
+    }
+    
+}
+/* for ALGORITHIMS */
+.ANDROID{
+    background: #1ce2e9;
+    animation: ANDROID 3S linear forwards;
+}
+
+.ANDROID span{
+    border: 2px solid #1ce2e9 ;
+}
+@keyframes ANDROID{
+    100%{
+        width: 42%;
+    }
+    
+}
+
+/* for DATA-STRUCTURE */
+
+.DATA-STRUCTURE{
+    background: #1ce2e9;
+    animation: DATA-STRUCTURE 3S linear forwards;
+}
+
+.DATA-STRUCTURE span{
+    border: 2px solid #1ce2e9 ;
+}
+@keyframes DATA-STRUCTURE{
+    100%{
+        width: 70%;
+    }
+    
+}
+/* FOR COMPUTER-GRAPHICS */
+.COMPUTER-GRAPHICS{
+    background: #1ce2e9;
+    animation: COMPUTER-GRAPHICS 3S linear forwards;
+}
+
+.COMPUTER-GRAPHICS span{
+    border: 2px solid #1ce2e9 ;
+}
+@keyframes COMPUTER-GRAPHICS{
+    100%{
+        width: 59%;
+    }
+    
+}
+
+/* FOR JAVA */
+.JAVA{
+    background: #1ce2e9;
+    animation: JAVA 3S linear forwards;
+}
+
+.JAVA span{
+    border: 2px solid #1ce2e9 ;
+}
+@keyframes JAVA{
+    100%{
+        width: 59%;
+    }
+    
+}
+
+/* FOR DBMS */
+.DBMS{
+    background: #1ce2e9;
+    animation: DBMS 3S linear forwards;
+}
+
+.DBMS span{
+    border: 2px solid #1ce2e9 ;
+}
+@keyframes DBMS{
+    100%{
+        width: 77%;
+    }
+    
+}
+/* FOR AUTOMATA */
+.AUTOMATA{
+    background: #1ce2e9;
+    animation: AUTOMATA 3S linear forwards;
+}
+
+.AUTOMATA span{
+    border: 2px solid #1ce2e9 ;
+}
+@keyframes AUTOMATA{
+    100%{
+        width: 70%;
+    }
+    
+}
+/* FOR AI */
+.AI{
+    background: #1ce2e9;
+    animation: AI 3S linear forwards;
+}
+
+.AI span{
+    border: 2px solid #1ce2e9 ;
+}
+@keyframes AI{
+    100%{
+        width: 40%;
+    }
+    
+}
