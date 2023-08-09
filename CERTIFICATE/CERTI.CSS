@@ -59,14 +59,11 @@ body{
     height: 270px;
     border-radius:0%;
 }
-
-
-/* second certificate holder---------------------------------------- */
 .holder2{
     width: 35%;
     height: 210px;
     /* background: red; */
-    background: url(IMG/cpp.JPG);
+    background: url(IMG/5g.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -84,12 +81,12 @@ body{
 }
 
 
-/* third certificate holder---------------------------------------- */
+/* second certificate holder---------------------------------------- */
 .holder3{
     width: 35%;
     height: 210px;
     /* background: red; */
-    background: url(IMG/css.jpg);
+    background: url(IMG/cpp.JPG);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -105,12 +102,14 @@ body{
     height: 270px;
     border-radius:0%;
 }
-/* 4 certificate holder---------------------------------------- */
+
+
+/* third certificate holder---------------------------------------- */
 .holder4{
     width: 35%;
     height: 210px;
     /* background: red; */
-    background: url(IMG/csec.JPG);
+    background: url(IMG/css.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -126,13 +125,12 @@ body{
     height: 270px;
     border-radius:0%;
 }
-
-/* 5 certificate holder---------------------------------------- */
+/* 4 certificate holder---------------------------------------- */
 .holder5{
     width: 35%;
     height: 210px;
     /* background: red; */
-    background: url(IMG/cyber.jpg);
+    background: url(IMG/csec.JPG);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -148,12 +146,13 @@ body{
     height: 270px;
     border-radius:0%;
 }
-/* 6 certificate holder---------------------------------------- */
+
+/* 5 certificate holder---------------------------------------- */
 .holder6{
     width: 35%;
     height: 210px;
     /* background: red; */
-    background: url(IMG/htm.jpg);
+    background: url(IMG/cyber.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -169,13 +168,12 @@ body{
     height: 270px;
     border-radius:0%;
 }
-
-/* 7 certificate holder---------------------------------------- */
+/* 6 certificate holder---------------------------------------- */
 .holder7{
     width: 35%;
     height: 210px;
     /* background: red; */
-    background: url(IMG/neural.jpg);
+    background: url(IMG/htm.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -191,12 +189,13 @@ body{
     height: 270px;
     border-radius:0%;
 }
-/* 8 certificate holder---------------------------------------- */
+
+/* 7 certificate holder---------------------------------------- */
 .holder8{
     width: 35%;
     height: 210px;
     /* background: red; */
-    background: url(IMG/sql.jpg);
+    background: url(IMG/neural.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -212,13 +211,12 @@ body{
     height: 270px;
     border-radius:0%;
 }
-
-/* 9 certificate holder---------------------------------------- */
+/* 8 certificate holder---------------------------------------- */
 .holder9{
     width: 35%;
     height: 210px;
     /* background: red; */
-    background: url(IMG/ui.jpg);
+    background: url(IMG/sql.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -235,8 +233,30 @@ body{
     border-radius:0%;
 }
 
-/* 10 certificate holder---------------------------------------- */
+/* 9 certificate holder---------------------------------------- */
 .holder10{
+    width: 35%;
+    height: 210px;
+    /* background: red; */
+    background: url(IMG/ui.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    transition: width 0.5s,height 0.5s,border-radius 0.5s;
+}
+.holder10:hover{
+    width: 50%;
+    height: 270px;
+    border-radius:0%;
+}
+
+/* 10 certificate holder---------------------------------------- */
+.holder11{
     width: 35%;
     height: 210px;
     /* background: red; */
@@ -251,7 +271,7 @@ body{
     border-radius: 20px;
     transition: width 0.5s,height 0.5s,border-radius 0.5s;
 }
-.holder10:hover{
+.holder11:hover{
     width: 50%;
     height: 270px;
     border-radius:0%;
